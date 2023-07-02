@@ -1,6 +1,6 @@
 {
     "name": "berdidajohnlouise/file-upload",
-    "description": "A package for uploading files in laravel",
+    "description": "A package for uploading files in php",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "8.5.x-dev"
