@@ -1,0 +1,6 @@
+name: Image Upload Test
+on:
+  push:
+    branches-ignore:
+      - dev
+      - master
