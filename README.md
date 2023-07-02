@@ -13,5 +13,5 @@ $ composer require berdidajohnlouise/file-upload
 ## Usage
 
 ```php
-$filepath = new FileUploader($file, 'file directory path');
+$filepath = new FileUploader($file, 'to-your-storage-directory-path');
 ```
