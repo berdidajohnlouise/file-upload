@@ -1,5 +1,7 @@
 # Laravel package for uploading files.
 
+[![File Upload Test](https://github.com/berdidajohnlouise/file-upload/actions/workflows/test.yml/badge.svg)](https://github.com/berdidajohnlouise/file-upload/actions/workflows/test.yml)
+
 A simple file upload that save files to directory and return file path using PHP 7+.
 
 ## Installation
