@@ -7,7 +7,7 @@ name: File Upload Test
 
 jobs:
   phpunit:
-    runs-on:  ubuntu-latest
+    runs-on: ubuntu-latest
     container:
       image: kirschbaumdevelopment/laravel-test-runner:7.4
 
@@ -19,6 +19,7 @@ jobs:
       - name: Install composer dependencies
         run: |
           composer install
-      
-      -name: Run Application Test Suite
-        run: make
+
+      - name: Run Laravel Test Suite
+        run: |
+          vendor/bin/phpunit tests
